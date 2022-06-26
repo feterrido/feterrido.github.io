@@ -547,6 +547,85 @@ a:focus {
     }
 }
 
+/*******************************/
+/********** performance CSS **********/
+/*******************************/
+.performance {
+    position: relative;
+    width: 100%;
+    margin: -45px 0 45px 0;
+}
+
+.performance .col-lg-6 {
+    padding: 0;
+}
+
+.performance .section-header {
+    margin-bottom: 30px;
+}
+
+.performance .performance-img {
+    position: relative;
+    height: 100%;
+}
+
+.performance .performance-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.performance .performance-content {
+    padding: 0 60px;
+}
+
+.performance .performance-text p {
+    font-size: 16px;
+}
+
+.performance .skills {
+    margin-bottom: 30px;
+}
+
+.performance .skill-name {
+    margin-top: 15px;
+}
+
+.performance .skill-name p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.performance .skill-name p:last-child {
+    float: right;
+}
+
+.performance .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: #dddddd;
+}
+
+.performance .progress .progress-bar {
+    width: 0px;
+    background: #EF233C;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.performance .performance-text a.btn {
+    margin-top: 15px;
+}
+
+@media (max-width: 991.98px) {
+    .performance .performance-content {
+        padding: 45px 15px 0 15px;
+    }
+}
+
 
 /*******************************/
 /******* Experience CSS ********/
